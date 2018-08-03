@@ -1,0 +1,505 @@
+/* Global */
+
+body {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+
+.container {
+    width: 80%;
+    /* max-width: 1000px; */
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/* Hero Section */
+
+#heroSection {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,1)),
+    url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/heroLion.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+  
+
+.heroHeader {
+    position: absolute;
+    top:20%;
+    width: 25%;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+
+
+.heroHeader h2{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.porterName {
+    text-align: right;
+}
+
+.heroRedLine {
+    width: 250px;
+    height: 15px;
+    margin: 50px auto;
+    background-color: #c1272d;
+}
+
+
+/* About Section */
+
+#aboutSection {
+    background-color: black;
+    padding: 150px 0 150px 0;
+    position: relative;
+}
+
+.aboutColumn {
+    width: 50%;
+    float: left;
+}
+
+.aboutColumn h1{
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+
+.aboutRedLine {
+    width: 200px;
+    height: 8px;
+    margin: 20px 0 40px 0;
+    background-color: #c1272d;
+}
+
+.aboutColumn p{
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.aboutImage img{
+    width: 35%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
+
+@media screen and (max-width:670px) {
+    
+    #aboutSection {
+        padding: 150px 0 0px 0;
+    }
+
+    .aboutColumn {
+        width: 90%;
+        float: none;
+    }
+
+    .aboutImage img{
+        width: 80%;
+        display: block;
+        clear: both;
+        margin: auto;
+        margin-top: 60px;
+        position: relative;
+        bottom: 0px;
+        right:0px;
+    }
+}
+
+/* Divider */
+
+.divider {
+    width: 100%;
+    height: 50px;
+    background-color: #c1272d;
+    z-index: 10;
+    clear: both;
+}
+
+/* Latest Work Section */
+
+#latestWork {
+    padding: 50px 0 0px 0;
+}
+
+#latestWork h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+}
+
+.latestRedLine {
+    width: 200px;
+    height: 8px;
+    margin: 20px auto 50px auto;
+    background-color: #c1272d;
+}
+
+.latestSlider {
+    object-fit: cover;
+
+}
+
+.latestSlider img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+/* Slider */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 40vw;
+  min-height: 500px;
+  position: relative;
+  margin-bottom: 0;
+  background-color: black;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.latestSlide {
+    width: 100%;
+    height: 40vw;
+    min-height: 500px;
+    object-fit: cover;
+    object-position: fixed;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+
+  }
+  
+  @keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+
+  }
+
+/* Portfolio Section */
+
+#portfolioSection {
+    padding: 50px 0 0 0;
+    background-color: black;
+    line-height: 0;
+    height: auto;
+}
+
+#portfolioSection h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+    line-height: 1;
+
+}
+
+.portfolioRedLine {
+    width: 200px;
+    height: 8px;
+    margin: 20px auto 50px auto;
+    background-color: #c1272d;
+}
+
+.portfolioRow {
+    width: 100%;
+    height: 33vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+@media (max-width:768px) {
+    .portfolioRow {
+        height: 33vw;
+    }
+}
+
+.portfolioThumbnail {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    
+}
+
+
+.portfolioThumbnail:hover {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    
+}
+
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,1));
+    opacity: 0;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 36px;
+    font-size: 30px;
+    padding-top:150px;
+    text-align: center;
+    left:50%;
+    transition: .5s ease;
+    color: white;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+
+}
+
+
+.overlay span{
+    font-family: 'Playfair Display';
+    font-size: 21px;
+    text-align: center;
+    left:50%;
+    font-style: normal;
+}
+
+
+
+.chameleon {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/chameleon.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.chameleon:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.monkey {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/monkey.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.monkey:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.sunset {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/sunset.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.sunset:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.bear {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/bear.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.bear:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.stag {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/stag.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.stag:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.croc {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/croc.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.croc:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.turtle {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/turtle.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.turtle:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.dolphin {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/dolphin.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.dolphin:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.tiger {
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/tiger.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.tiger:hover .overlay {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1023px){
+    div.overlay {
+        color: transparent;
+    }
+}
+
+/* Contact Section */
+
+#contactSection {
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.5)),
+                url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/wolf.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 0%;
+    padding: 100px 0 150px 0;
+    overflow: hidden;
+    
+}
+
+.contactColumn {
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+
+.contactColumn h1 {
+    
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+}
+
+.contactRedLine {
+    width: 200px;
+    height: 8px;
+    margin: 20px auto 50px auto;
+    background-color: #c1272d;
+}
+
+.contactColumn h2 {
+    
+    font-size: 24px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+}
+
+.contactColumn h3 {
+    
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:853px) {
+    .contactColumn {
+        width:100%;
+    }
+
+    .contactColumn h3 {
+    
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+}

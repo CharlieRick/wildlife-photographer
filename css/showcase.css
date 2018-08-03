@@ -1,0 +1,197 @@
+body {
+    overflow: hidden;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.imageDiv {
+
+    width: 66.666%;
+    height: 100%;
+    float: left;
+
+}
+
+
+
+
+.chameleonImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/chameleon.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.monkeyImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/monkey.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sunsetImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bearImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/bear.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.stagImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/stag.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.crocImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/croc.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.turtleImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/turtle.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.dolphinImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/dolphin.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tigerImage {
+    
+    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/tiger.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Sidebar */
+
+.info {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    padding: auto;
+}
+
+.infoDiv {
+    
+    height: 100%;
+    border-left: 20px solid #c1272d;
+    padding: 120px 0;
+
+}
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: 7px;
+}
+
+.info h2 {
+    font-family: 'Playfair Display';
+    font-size: 21px;
+    text-align: center;
+    color: white;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.redLine {
+    width: 200px;
+    height: 5px;
+    margin: 30px auto 50px auto;
+    background-color: #c1272d;
+}
+
+.infoP {
+    width: 80%;
+    margin: auto;
+}
+
+.info p {
+    
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    text-align: left;
+    line-height: 23px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+.backToWorkButton {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 24px;
+    background: none;
+    color: white;
+    border: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+@media screen and (max-width:1049px){
+
+    body {
+        overflow: scroll;
+        background-color: black;
+    }
+
+    .imageDiv {
+        width: 100%;
+        height: 50vh;
+        float: none;
+    }
+
+    .info {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .infoDiv {
+    
+        margin: auto;
+        height: 100%;
+        padding: 100px 0px;
+        border-top: 20px solid #c1272d;
+        border-left: none;
+    
+    }
+}
