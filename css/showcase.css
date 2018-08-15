@@ -21,7 +21,7 @@ body {
 
 .chameleonImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/chameleon.jpg);
+    background: url(../img/chameleon.jpg);
     background-size: cover;
     background-position: center;
 
@@ -29,7 +29,7 @@ body {
 
 .monkeyImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/monkey.jpg);
+    background: url(../img/monkey.jpg);
     background-size: cover;
     background-position: center;
 
@@ -37,7 +37,7 @@ body {
 
 .sunsetImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/sunset.jpg);
+    background: url(../img/sunset.jpg);
     background-size: cover;
     background-position: center;
 
@@ -45,7 +45,7 @@ body {
 
 .bearImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/bear.jpg);
+    background: url(../img/bear.jpg);
     background-size: cover;
     background-position: center;
 
@@ -53,7 +53,7 @@ body {
 
 .stagImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/stag.jpg);
+    background: url(../img/stag.jpg);
     background-size: cover;
     background-position: center;
 
@@ -61,7 +61,7 @@ body {
 
 .crocImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/croc.jpg);
+    background: url(../img/croc.jpg);
     background-size: cover;
     background-position: center;
 
@@ -69,7 +69,7 @@ body {
 
 .turtleImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/turtle.jpg);
+    background: url(../img/turtle.jpg);
     background-size: cover;
     background-position: center;
 
@@ -77,7 +77,7 @@ body {
 
 .dolphinImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/dolphin.jpg);
+    background: url(../img/dolphin.jpg);
     background-size: cover;
     background-position: center;
 
@@ -85,7 +85,7 @@ body {
 
 .tigerImage {
     
-    background: url(/Users/charlierick/Documents/Personal/Work/Portfolio/Projects/wildlifePhotographer/wildlifePhotographer/img/tiger.jpg);
+    background: url(../img/tiger.jpg);
     background-size: cover;
     background-position: center;
 
