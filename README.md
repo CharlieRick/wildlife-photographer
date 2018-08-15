@@ -1,4 +1,4 @@
-# wildlife-photographer
+# Wildlife Photographer Portfolio
 
 The aim of this project was to create a salary calculator focused on user experience and design.
 
