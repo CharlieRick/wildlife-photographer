@@ -1,7 +1,7 @@
 # Wildlife Photographer Portfolio
 
-The aim of this project was to create a salary calculator focused on user experience and design.
+The aim of this project was to hand code a beautiful, responsive website without the assistance of plugins.
 
-Nearly all of the salary calculators you find online aren't fun to use. They're usually across multiple pages, require page reloads and are painful to edit the information you've input. Not to mention, ugly! This was my inspiration to make a better one.
+The site is almost purely HTML & CSS, with the exception of some JavaScript for the functionality of the image slider.
 
 Live demo: http://wildlife-photographer.charick.co.uk/
